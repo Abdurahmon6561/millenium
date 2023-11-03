@@ -224,10 +224,10 @@ margin-left: 15px;
 /*----------Card End-------------*/
 
 
-/*main-2 start*/
 .Hamburger-2{
     margin-left: -45px;
 }
+/*main-2*/
 .main-2__left{
     margin-top: 41px;
 }
@@ -271,4 +271,75 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+.main-2__right{
+    background-image: url(../image/image/2.png) , url(../image/image/1.png);
+    background-repeat: no-repeat;
+    width: 447px;
+    height: 299px;
+}
 /*main-2 end*/
+/*Card-2 start*/
+.cards-2{
+    width: 364px;
+height: 200px;
+flex-shrink: 0;border-radius: 10px;
+background: #FFF;
+box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+margin-bottom: 40px;
+}
+
+.card-2__title{
+    color: #2A2367;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 54px;
+margin-bottom: 33px;
+}
+.card-2__title-blue{
+    color: #6B5AF9;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.cards-2__number{
+    color: #FFF;
+text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+font-family: Montserrat;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 2px 15px;
+}
+.cards-2__p{
+    color: #2A2367;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 5px 15px;
+}
+.line{
+    width: 175px;
+height: 2px;
+background: #E37575;
+margin-left: 10px;
+}
+.cards-2__p2{
+    color: var(--1, #2A2367);
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 8px 15px;
+}
+
+
+/*card-2 end*/

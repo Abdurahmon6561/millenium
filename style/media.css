@@ -1,17 +1,17 @@
-@media (max-width:992px){
-    .header__centre, .header__btn span, .header__right span, .header__logo, .cards, .card-title, .main__left, .icon-down, .main__right, .main__btn, .card__btn, 
-    .main-2__left, .main-2__right img, .main-2__left-title, .main-2__left-p, .main
+@media (min-width:992px){
+    .container-2, .main-2, .main-2__left-title, .main-2__left-p, .main-2__left-title-blue, .main-2__left-p2
     {
         display: none;
     }
 
-    .header__btn img, .header__centre-logo, .hamburger , .main-2__left, .main-2__right, .main-2__right img, .main-2__left-title, .main-2__left-p{
-        display: block;
-    }
+
     
 }
 @media (max-width:768px){
-    body{
+    .container{
         display: none;
+    }
+    .container-2, .main-2, .main-2__left-title, .main-2__left-p, .main-2__left-title-blue, .main-2__left-p2{
+        display: block;
     }
 }
